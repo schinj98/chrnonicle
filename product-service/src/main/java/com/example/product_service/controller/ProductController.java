@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 @RestController
-@RequestMapping
+@RequestMapping("/product")
 public class ProductController {
     
     private static final ArrayList<Product> al = new ArrayList<>();
